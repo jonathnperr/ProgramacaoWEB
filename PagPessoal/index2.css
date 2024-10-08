@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ebe2dd;
+    font-family: 'Roboto', sans-serif;
+    zoom: 90%;
+}
+
+header {    
+    background-color: #ffffff;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #184c84;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.menu {
+    font-size: 18px;
+    padding-left: 18px;
+    padding-right: 10px;
+    padding-top: 5px;
+    color: #175EA8;
+    padding-top: 32px;
+    padding-bottom: 22px;
+    border-bottom: 7px solid transparent; 
+    transition: border-bottom-color 0.5s ease; 
+}
+
+.menu:hover {
+    border-bottom-color: #175EA8; 
+}
+
+main {
+    width: 1100px;
+    margin: auto;
+    background-color: #ffffff;
+    text-align: center;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.div-ini {
+    display: flex;
+    justify-content: center;
+    height: 462px;
+    background-image: url('capa.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.whoami,
+.inter,
+.formacao,
+.experiencia,
+.linguas {
+    margin: 40px 200px;
+}
+
+.linguas{
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: #184c84;
+    margin-bottom: 15px;
+}
+
+p, ul {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;    
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #efefef;
+    color: #133F6E;
+    text-align: center;
+    padding-bottom: 19px;
+}
+
+footer p {
+    margin-bottom: 0px;
+    font-size: 16px;
+
+}
+
+.logo-ufsc{
+    margin-top: 20px;
+    width: 300px;
+}
+
